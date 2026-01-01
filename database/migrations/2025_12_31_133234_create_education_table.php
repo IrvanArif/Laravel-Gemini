@@ -10,10 +10,10 @@ return new class extends Migration
     {
         Schema::create('educations', function (Blueprint $table) {
             $table->id();
-            $table->string('institution');  // Nama Kampus
-            $table->string('degree');       // Gelar
-            $table->string('period');       // Tahun
-            $table->string('gpa')->nullable(); // IPK (Boleh kosong)
+            $table->string('institution');
+            $table->string('degree');
+            $table->string('period');
+            $table->string('gpa')->nullable();
             $table->timestamps();
         });
     }

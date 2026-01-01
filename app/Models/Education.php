@@ -9,9 +9,7 @@ class Education extends Model
 {
     use HasFactory;
 
-    // KITA PAKSA LARAVEL MENGGUNAKAN TABEL JAMAK
     protected $table = 'educations';
 
-    // Izinkan semua kolom diisi (Mass Assignment)
     protected $guarded = [];
 }

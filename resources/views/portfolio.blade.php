@@ -11,7 +11,7 @@
     <title>Irvan Arif A. | QA & Web Developer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Efek smooth scrolling */
+        
         html { scroll-behavior: smooth; }
     </style>
 </head>

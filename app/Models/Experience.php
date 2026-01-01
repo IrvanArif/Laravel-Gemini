@@ -9,5 +9,5 @@ class Experience extends Model
 {
     use HasFactory;
     
-    protected $guarded = []; // Ini mengizinkan kita mengisi data tanpa error "Add [field] to fillable"
+    protected $guarded = [];
 }

@@ -13,10 +13,10 @@ return new class extends Migration
     {
         Schema::create('experiences', function (Blueprint $table) {
             $table->id();
-            $table->string('company');      // Nama Perusahaan
-            $table->string('role');         // Jabatan
-            $table->string('period');       // Periode Kerja
-            $table->text('description');    // Deskripsi Tugas
+            $table->string('company');
+            $table->string('role');
+            $table->string('period');
+            $table->text('description');
             $table->timestamps();
         });
     }
